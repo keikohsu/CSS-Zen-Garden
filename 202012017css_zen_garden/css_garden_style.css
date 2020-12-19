@@ -135,9 +135,9 @@ abbr {
   padding: 30px;
   margin: 0;
   border-radius: 3%;
-    animation: fadeInRight;
+  /* animation: fadeInRight;
   animation-duration: 5s;
-  animation-iteration-count: 1;
+  animation-iteration-count: 1; */
 
   /* z-index: 90; */
 }
@@ -262,10 +262,10 @@ abbr {
   border-radius: 50%;
   padding: 10px;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4);
-  animation: fadeInDown;
+  /* animation: fadeInDown;
   animation-duration: 5s;
   animation-iteration-count: 1;
-  transition:4s;
+  transition:4s; */
 }
 /* 湯匙圖 */
 .benefits:hover {
@@ -330,7 +330,7 @@ color: #333;
   font-family: "Andika New Basic", sans-serif;
   position: relative;
   left: 105%;
-  top: -5px;
+  top:0.5%;
   width: 75%;
   height: 100px;
   line-height: 20px;
@@ -346,8 +346,8 @@ color: #333;
   position: absolute;
   color: #fff;
   font-size: 40px;
-  top: 40px;
-  left: 150px;
+  top: -18%;
+   left: 106%;
 }
 /* #zen-requirements{
 
@@ -403,14 +403,10 @@ display: none;
   position: relative;
   height: 200px;
   width: 200px;
-  top:100%;
+  top:85%;
   left: 85%;
   border-radius: 50%;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
-  animation: fadeInDown;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  transition: 1.5s;
 }
 .design-archives:hover {
   background: url(./images/12.jpg) no-repeat center / cover;
@@ -434,7 +430,7 @@ transform: scale(0.9);
 
 .zen-resources {
   position: relative;
-  top: -2580px;
+  top: -2200px;
   height: 200px;
   width: 200px;
   left:81%;
