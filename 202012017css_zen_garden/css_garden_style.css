@@ -113,13 +113,17 @@ abbr {
 }
 
 .explanation h3 {
+  display: flex;
   backdrop-filter: blur(5px);
   border-radius: 7px;
   position: absolute;
-  top: 70%;
-  left: 17%;
+top: 80%;
+left: 25%;
   font-size: 70px;
   padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+
 }
 /* 大圖字  透明圖層 綠色*/
 .explanation p {
@@ -242,6 +246,7 @@ abbr {
   margin-left: 70px;
   margin-right: 70px;
   color: #fff;
+  font-family: "Andika New Basic", sans-serif;
 }
 .participation h3 {
   position: relative;
@@ -258,14 +263,13 @@ abbr {
   width: 400px;
   height: 400px;
   left: 59%;
-  top: 87%;
+  top: 88%;
   border-radius: 50%;
   padding: 10px;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4);
-  /* animation: fadeInDown;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  transition:4s; */
+  font-family: "Andika New Basic", sans-serif;
+  transition:3s
+
 }
 /* 湯匙圖 */
 .benefits:hover {
@@ -300,20 +304,6 @@ display: none;
 }
 
 
-/* .benefits p:hover {
-
-color: #333;
-} */
-/* @keyframes i {
-  from {
-    transform: rotateY(0)  ;
-  }
-
-  to {
-    transform: rotateY(180deg) ;
-  }
-} */
-
 .requirements {
   position: relative;
   /* background: turquoise; */
@@ -347,11 +337,9 @@ color: #333;
   color: #fff;
   font-size: 40px;
   top: -18%;
-   left: 106%;
+  left: 106%;
 }
-/* #zen-requirements{
 
-} */
 
 .design-selection {
   position: relative;
@@ -367,6 +355,7 @@ color: #333;
   animation-duration: 5s;
   animation-iteration-count: 1;
   transition:3s ; */
+  transition:3s
 }
 .design-selection:hover {
   background: url(./images/2.jpg) no-repeat center / cover;
@@ -385,6 +374,7 @@ display: none;
   line-height: 20px;
   line-height: 30px;
   margin-left: 15px;
+  font-family: "Andika New Basic", sans-serif;
 }
 .design-selection h3 {
   color: #fff;
@@ -407,6 +397,8 @@ display: none;
   left: 85%;
   border-radius: 50%;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+  font-family: "Andika New Basic", sans-serif;
+  transition:3s
 }
 .design-archives:hover {
   background: url(./images/12.jpg) no-repeat center / cover;
@@ -430,7 +422,7 @@ transform: scale(0.9);
 
 .zen-resources {
   position: relative;
-  top: -2200px;
+  top: -2500px;
   height: 200px;
   width: 200px;
   left:81%;
@@ -440,7 +432,7 @@ transform: scale(0.9);
   border-radius: 5%;
   z-index: 99;
 }
- @keyframes float-item {
+  @keyframes float-item {
       0% {
         transform: translate(0, 0);
       }
@@ -456,14 +448,14 @@ transform: scale(0.9);
 /* --------------------------------------- */
 #footer {
 display: flex;
-  background:rgb(249, 250, 172);
+  background:rgb(246, 255, 127);
   text-align: center;
-  height: 50px;
+  height: 70px;
   justify-content: center;
   align-items: center;
 font-size: 50px;
-
-
+font-family: "Playfair Display", serif;
+letter-spacing:10px
 }
 /* --------------------------------------------- */
 
